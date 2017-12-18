@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  background:url(img/bg-image.png) no-repeat;
+  background-size: 100%;
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+placeholder {
+  color:rgb(255, 255, 255);
+}
+.User {
+  width: 100%;
+  height: 48px;
+  margin-top: 200px;
+  background: url(img/User.png) center center no-repeat;
+  background-size:48px 48px;
+}
+.text {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.i-form {
+  margin: 15px auto;
+  display: block;
+  width: 250px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(122, 122, 122);
+  border-radius: 4px;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.5),inset 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.i-email {
+  background: rgba(0, 0, 0, 0.2) url(img/Login.png) center left 15px no-repeat;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding-left: 39px;
+}
+.i-password {
+  background: rgba(0, 0, 0, 0.2) url(img/Key.png) center left 15px no-repeat;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding-left: 39px;
+  z-index: 2;
+}
+.sub {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 15px auto;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(122, 122, 122);
+  border-radius: 4px;
+  width: 250px;
+  height: 40px;
+  background-image:linear-gradient(#ff8d52, #ff662e);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1),inset 0px 2px 0px 0px rgba(255, 216, 133, 0.004);
+}
+
