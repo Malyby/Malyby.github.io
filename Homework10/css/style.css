@@ -1,0 +1,273 @@
+.work {
+  text-align: center;
+}
+.work h1 {
+  font-size: 50px;
+  font-family: "OpenSans";
+  color: #000;
+  margin-bottom: 0px;
+}
+.work h1 span {
+  color: #fd8569;
+}
+.work p {
+  margin-top: 0px;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgba(65, 65, 65, 0.702);
+}
+.box {
+  margin-top: 50px;
+  text-align: center;
+}
+.block1 {
+  display: inline-block;
+  width: 262px;
+  height: 262px;
+  text-align: center;
+  background-color: #4eb2f7;
+  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 50px;
+  vertical-align: middle;
+}
+.block1 i {
+  font-size: 35px;
+  font-family: "FontAwesome";
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 55px;
+}
+.block1 h3 {
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.902);
+}
+.block1 p {
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.749);
+}
+.block1 button {
+  margin-top: 50px;
+  padding: 15px 70px;
+  border-radius: 27px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.1);
+}
+.block1 button .rectangle1 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 16px;
+  height: 2px;
+  display: inline-block;
+  transform: translate(-2.2px, -4.5px);
+}
+.block1 button .rectangle2 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 2px;
+  height: 16px;
+  display: inline-block;
+  transform: translate(-15px, 2px);
+}
+.block1 button span {
+  margin-left: 6px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgba(0, 0, 0, 0.8);
+}
+.block2 {
+  display: inline-block;
+  width: 262px;
+  height: 262px;
+  text-align: center;
+  background-color: #4eb2f7;
+  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 50px;
+  vertical-align: middle;
+  background-color: #c049f8;
+}
+.block2 i {
+  font-size: 35px;
+  font-family: "FontAwesome";
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 55px;
+}
+.block2 h3 {
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.902);
+}
+.block2 p {
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.749);
+}
+.block2 button {
+  margin-top: 50px;
+  padding: 15px 70px;
+  border-radius: 27px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.1);
+}
+.block2 button .rectangle1 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 16px;
+  height: 2px;
+  display: inline-block;
+  transform: translate(-2.2px, -4.5px);
+}
+.block2 button .rectangle2 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 2px;
+  height: 16px;
+  display: inline-block;
+  transform: translate(-15px, 2px);
+}
+.block2 button span {
+  margin-left: 6px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgba(0, 0, 0, 0.8);
+}
+.block2 button {
+  margin-top: 35px;
+}
+.block3 {
+  display: inline-block;
+  width: 262px;
+  height: 262px;
+  text-align: center;
+  background-color: #4eb2f7;
+  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 50px;
+  vertical-align: middle;
+  background-color: #817eff;
+}
+.block3 i {
+  font-size: 35px;
+  font-family: "FontAwesome";
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 55px;
+}
+.block3 h3 {
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.902);
+}
+.block3 p {
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.749);
+}
+.block3 button {
+  margin-top: 50px;
+  padding: 15px 70px;
+  border-radius: 27px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.1);
+}
+.block3 button .rectangle1 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 16px;
+  height: 2px;
+  display: inline-block;
+  transform: translate(-2.2px, -4.5px);
+}
+.block3 button .rectangle2 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 2px;
+  height: 16px;
+  display: inline-block;
+  transform: translate(-15px, 2px);
+}
+.block3 button span {
+  margin-left: 6px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgba(0, 0, 0, 0.8);
+}
+.block3 button {
+  margin-top: 35px;
+}
+.block4 {
+  display: inline-block;
+  width: 262px;
+  height: 262px;
+  text-align: center;
+  background-color: #4eb2f7;
+  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 50px;
+  vertical-align: middle;
+  background-color: #f74770;
+}
+.block4 i {
+  font-size: 35px;
+  font-family: "FontAwesome";
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 55px;
+}
+.block4 h3 {
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.902);
+}
+.block4 p {
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: rgba(255, 255, 255, 0.749);
+}
+.block4 button {
+  margin-top: 50px;
+  padding: 15px 70px;
+  border-radius: 27px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.1);
+}
+.block4 button .rectangle1 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 16px;
+  height: 2px;
+  display: inline-block;
+  transform: translate(-2.2px, -4.5px);
+}
+.block4 button .rectangle2 {
+  background-color: #000000;
+  opacity: 0.4;
+  width: 2px;
+  height: 16px;
+  display: inline-block;
+  transform: translate(-15px, 2px);
+}
+.block4 button span {
+  margin-left: 6px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgba(0, 0, 0, 0.8);
+}
+.block4 button {
+  margin-top: 35px;
+}
+.block4 i {
+  transform: rotateZ(-20deg);
+}
