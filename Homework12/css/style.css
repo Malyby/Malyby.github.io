@@ -30,7 +30,10 @@
   width: 100vw;
   height: 100vh;
 }
-.overlay .visible {
+.overlay:target {
+  display: none;
+}
+.visible {
   text-align: center;
   background: #fff;
   position: fixed;
@@ -41,7 +44,7 @@
   height: 250px;
   line-height: 65px;
 }
-.overlay .close {
+.close {
   font-size: 40px;
   width: 100px;
   position: relative;
@@ -49,11 +52,10 @@
   transform: translateX(-50%) translateY(-50%);
   top: 2px;
 }
-.overlay .close .close-link {
+.close-link {
   border-radius: 50%;
   padding: 5px 15px;
   text-decoration: none;
-  z-index: 20;
   background-color: rgba(0, 0, 0, 0.8);
   color: rgba(255, 255, 255, 0.8);
 }
