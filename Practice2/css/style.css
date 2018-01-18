@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(45deg, #fbf2eb, #352a3b);
+}
+.project {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.box {
+  height: 1100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box .section {
+  width: 30%;
+}
+.box .section .item {
+  align-self: flex-start;
+  width: 100%;
+  margin-top: 30px;
+}
+.box .section .item-1,
+.box .section .item-3,
+.box .section .item-4,
+.box .section .item-5,
+.box .section .item-8,
+.box .section .item-9 {
+  height: 30vh;
+}
+.box .section .item-7,
+.box .section .item-2,
+.box .section .item-6 {
+  height: 55vh;
+}
+.box .section .item-1 {
+  background: url(../img/1.jpg);
+  background-size: cover;
+}
+.box .section .item-2 {
+  background: url(../img/2.jpg);
+  background-size: cover;
+}
+.box .section .item-3 {
+  background: url(../img/3.jpg);
+  background-size: cover;
+}
+.box .section .item-4 {
+  background: url(../img/4.jpg);
+  background-size: cover;
+}
+.box .section .item-5 {
+  text-align: center;
+  position: relative;
+  top: 8%;
+}
+.box .section .item-5 .photo {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.box .section .item-6 {
+  background: url(../img/6.jpg);
+  background-size: cover;
+}
+.box .section .item-7 {
+  background: url(../img/7.jpg);
+  background-size: cover;
+}
+.box .section .item-8 {
+  background: url(../img/8.jpg);
+  background-size: cover;
+}
+.box .section .item-9 {
+  background: url(../img/9.jpg);
+  background-size: cover;
+}
