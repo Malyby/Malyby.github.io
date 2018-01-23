@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="slide-container">
+ 		
+ 	<div class="menu-off">
+ 		<ul>
+ 			<li><a href="#">Home</a></li>
+ 			<li><a href="#">About</a></li>
+ 			<li><a href="#">User</a></li>
+ 			<li><a href="#">Location</a></li>
+ 			<li><a href="#">More</a></li>
+ 		</ul>
+ 	</div>
+
+ 	<a class="btn-off" href="#">&#9776;</a>
+
+ 	</div>
+	<script
+  src="http://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	
+	<script>
+		$('.btn-off').click(function(){
+			$('.menu-off').animate({left:"0px"}, 400);
+			$('body').animate({left:"300px"}, 400);
+		});
+    $('.btn-off').dblclick(function() {
+        $('.menu-off').animate({left: '-300px' }, 400);   
+    	$('body').animate({left: '0px' }, 400); 
+    });
+	</script>
+</body>
+</html>
