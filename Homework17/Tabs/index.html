@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="box">
+		<div class="tabs-panel">
+			<div class="tabs">
+				<button data-target="tab-content-1" class="tab tab1"><span>вопросы</span></button>
+				<button data-target="tab-content-2" class="tab tab2"><span>жалобы</span></button>
+				<button data-target="tab-content-3" class="tab tab3"><span>регистрация</span></button>
+			</div>
+			<div class="tab-contents tab-content-1 tab-content-2">
+				<div class="data-form">
+					<p>имя</p>
+					<input type="name">
+					<p>email</p>
+					<input type="email">
+					<p>тема сообщения</p>
+					<input type="message">
+				</div>
+				<div class="message-form">
+					<p>сообщение</p>
+					<textarea type="comment"></textarea>
+				</div>
+			</div>
+			<div class="tab-contents tab-content-3">
+				<div class="data-form">
+					<p>имя</p>
+					<input type="name">
+					<p>email</p>
+					<input type="email">
+					<p>Пароль</p>
+					<input type="password">
+				</div>
+			</div>
+			<button class="btn">
+				<span>отправить сообщение</span>
+			</button>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script>
+		var tab = $('.tab');
+		tab.click(function(){
+			var target = $(this).attr('data-target');
+			$('.tab-contents').hide();
+			$('.'+target).show();
+		});
+
+	</script>
+</body>
+</html>
