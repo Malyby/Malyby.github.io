@@ -1,0 +1,741 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	background-color: #f5f5f5;
+	line-height: 1.66;
+}
+.home {
+	width: 100%;
+	height: 100rem;
+	background: #fff
+}
+.background {
+	display: inline-block;
+	width: 100%;
+	height: 70rem;
+	border-width: 1px;
+  	border-color: rgb(157, 157, 157);
+  	border-style: solid;
+	background: linear-gradient(45deg, rgb(1,105,180), rgb(167,43,143));
+}
+.logo {
+	display: inline-block;
+	margin-top: 7rem;
+	margin-left: 10%;
+	width: 30rem;
+}
+.logo span, .logo h1 {
+	display: inline-block;
+	text-transform: uppercase;
+    font-size: 3.4rem;
+  	font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+}
+.logo h1 {
+	font-weight: 300;
+	margin: 0;
+	padding-left: 3rem;
+}
+.menu {
+	min-width: 65rem;
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-top: 8rem;
+	margin-right: 10rem;
+}
+.menu ul {
+	list-style: none;
+}
+.menu ul li {
+	display: inline-block;
+	margin-right: 5rem;
+}
+.menu ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 1.6rem;
+}
+.menu a:hover {
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+.text {
+  text-align: left;
+  margin-top: 10rem;
+  margin-left: 10%;
+  width: 60rem;
+}
+.text h1 {
+	font-family: 'Raleway';
+    font-weight: 300;
+	color: #fff;
+    text-transform: uppercase;
+	font-size: 4rem;
+}
+.text span {
+	font-weight: 800;
+}
+.box {
+	text-align: center;
+	width: 100%;
+	height: 50rem;
+	background-color: #f5f5f5;
+	position: absolute;
+}
+.card {
+	display: inline-block;
+	width: 22%;
+	padding: 5rem;
+	text-align: center;
+	background-color: #fff;
+	position: relative;
+	bottom: 20rem;
+	vertical-align: top;
+}
+.card h2 {
+  font-size: 3rem;
+  font-family: 'Raleway';
+  color: rgb(1, 105, 180);
+  font-weight: 600;
+  text-align: center;
+}
+.card p {
+	font-size: 1.8rem;
+    font-family: 'Raleway';
+    color: rgb(135, 135, 135);
+    text-align: center;
+}
+.card button {
+	outline: none;
+	margin-top: 3rem;
+	border-radius: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1rem 3rem;
+    border-color: rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: 'Raleway';
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    text-align: center;
+}
+.two img {
+	height: 9.9rem;
+}
+.one, .two {
+	margin-right: 5rem;
+}
+.one:hover, .two:hover, .three:hover {
+	box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+.one:hover h2, .two:hover h2, .three:hover h2 {
+	color: rgb(102, 102, 102);
+}
+.one:hover button, .two:hover button, .three:hover button {
+  background-color: rgb(1, 105, 180);
+  color:rgb(255,255,255);
+  font-size: 1.5rem;
+}
+.about {
+	width: 100%;
+	height: 50rem;
+	margin-top: 20rem;
+}
+.description {
+	position: relative;
+	bottom: 5rem;
+	display: inline-block;
+	margin-left: 10%;
+	width: 31%;
+}
+.description h1 {
+	font-size: 5rem;
+	font-family: 'Raleway';
+	font-weight: 500;
+	color: rgb(1, 105, 180);
+	text-align: left;
+}
+.description p {
+	font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    text-align: left;
+}
+.description button {
+	outline: none;
+	margin-top: 3rem;
+	border-radius: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1rem 3rem;
+    border-color: rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: 'Raleway';
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    text-align: center;
+}
+.description button:hover {
+	background-color: rgb(1, 105, 180);
+    color:rgb(255,255,255);
+}
+.pic {
+	margin-left: 10rem;
+	width: 31%;
+	height: 43rem;
+	display: inline-block;
+	background:url(img/rectangle.png) no-repeat center center;
+	background-size: cover;
+}
+.projects {
+	width: 100%;
+	height: 60rem;
+	margin-top: 10rem;
+}
+.projects h1 {
+	margin-left: 10%;
+    font-size: 5rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(1, 105, 180);
+    text-align: left;
+}
+.square {
+	display: inline-block;
+	margin-left: 0.1%;
+	width: 24.7%;
+	height: 40rem;
+	background: url(img/square.png) no-repeat center center;
+	-webkit-background-size: contain;
+	background-size: cover;
+}
+.solutions {
+	width: 100%;
+	height: 60rem;
+	margin-top: 5rem;
+}
+.solutions h1 {
+	margin-left: 10%;
+    font-size: 5rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(1, 105, 180);
+    text-align: left;
+}
+.row {
+	width: 30%;
+	display: inline-block;
+	margin-left: 10%;
+	height: auto;
+	vertical-align: top;
+}
+.row h2 {
+	font-size: 2.8rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    line-height: 0.929;
+    text-align: left;
+}
+.row p {
+	font-size: 1.8rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    line-height: 1.667;
+	text-align: left;
+}
+.blog {
+	display: inline-block;
+	width: 100%;
+	height: 50rem;
+	margin-top: 5rem;
+	background-color: #fff;
+}
+.people {
+	width: 50%;
+	height: auto;
+	margin-left: 10%;
+	display: inline-block;
+	margin-right: 1rem;
+}
+.people h1 {
+    font-size: 5rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(0, 102, 204);
+
+}
+.people p {
+	display: inline-block;
+	font-size: 1.7rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(135, 135, 135);
+    line-height: 1.6;
+}
+.quotes {
+	display: inline-block;
+	height: 5rem;
+	width: 5rem;
+	vertical-align: top;
+	background: url(img/quotes.png) no-repeat left top;
+}
+.test {
+	display: inline-block;
+	width: 70%;
+}
+.peoplesquare {
+	float: right;
+	display: inline-block;
+	width: 35%;
+	height: 50rem;
+	background: url(img/peoplesquare.jpg) no-repeat center center;
+	background-size: cover;
+}
+.people button {
+	outline: none;
+	margin-top: 3rem;
+	border-radius: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1rem 3rem;
+    border-color: rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: 'Raleway';
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+}
+.btn {
+	text-align: right;
+}
+.people button:hover {
+	background-color: rgb(1, 105, 180);
+    color:rgb(255,255,255);
+}
+.news {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.news h1 {
+	margin-top: 10rem;
+	margin-left: 10%;
+    font-size: 5rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(0, 102, 204);
+}
+.may {
+	width: 26%;
+	display: inline-block;
+	margin-right: 4rem;
+}
+.may h2 {
+	display: inline-block;
+    font-size: 2.2rem;
+    font-family: 'Raleway';
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+}
+.may strong {
+	display: inline-block;
+    font-size: 5.5rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: rgb(204, 204, 204);
+    line-height: 0.5;
+    text-transform: uppercase;
+}
+.may p {
+  font-size: 1.8rem;
+  font-family: 'Raleway';
+  font-weight: 500;
+  color: rgb(135, 135, 135);
+  line-height: 1.667;
+  text-align: left;
+}
+.may span {
+	font-size: 2rem;
+}
+.may19 {
+	margin-left: 10%;
+}
+.may button {
+	outline: none;
+	margin-top: 3rem;
+	border-radius: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1rem 3rem;
+    border-color: rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: 'Raleway';
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    margin-bottom: 10rem;
+}
+.may button:hover {
+	background-color: rgb(1, 105, 180);
+    color:rgb(255,255,255);
+}
+.footer {
+	text-align: center;
+	width: 100%;
+	height: auto;
+    background-image: linear-gradient( -135deg, rgb(1,105,180) 0%, rgb(167,43,143) 100%),
+    url(img/footer.png);
+}
+.ellipse {
+	text-align: center;
+	width: 100%;
+	height: 10.1rem;
+    outline: none;
+    border: none;
+}
+.semicircle {
+	width: 100%	;
+	height: 10.1rem;
+    background: url(img/ellipse.png) no-repeat bottom center;
+	text-align: center;
+}
+.semicircle span {
+	position: relative;
+	top: 3.5rem;
+	right: 0.5rem;
+	display: inline-block;
+	font-size: 5rem;
+	color: rgb(167, 43, 143);
+	transform: rotate(-90deg);
+}
+.ellipse a {
+    outline: none;
+    text-decoration: none;
+}
+.me {
+	display: inline-block;
+	margin-right: 10rem;
+	margin-top: 12rem;
+}
+.me p {
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+.me img {
+	width: 5rem;
+}
+.me p {
+	margin-top: 2rem;
+}
+.social img {
+	margin-right: 5rem;
+	margin-top: 13rem;
+}
+@media screen and (min-width: 769px) and (max-width: 1185px) {
+	html {
+		font-size: 8px;
+	}
+	.logo {
+		display: block;
+		width: 100%;	
+		text-align: center;	
+		margin: 0 auto;	
+		margin-top: 5rem;	
+	}
+	.menu {
+		width: 100%;
+		display: block;	
+		margin: 0 auto;	
+		margin:5rem 0;
+	}
+	.text {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;	
+	}
+	.card {
+		margin: 0 auto;	
+		width: 30%;
+		margin-right: 1.5rem;	
+		vertical-align: top;
+		padding: 1rem;		
+	}
+	.one {
+		margin-left: 1.5rem;	
+	}
+	.about {
+		margin-top: 5rem;
+		height:50rem;
+	}
+	.pic {
+		width: 45%;
+    	height: 45rem;
+    	margin-bottom: 9rem;
+	}
+	.square {
+		width: 49.7%;
+	}
+	.projects, .solutions, .about {
+		height: auto;
+	}
+	.two img {
+    	height: 11.9rem;
+    }
+	.may {
+		margin-right: 2rem;
+	}
+	.may strong {
+		margin-left: 8rem;
+	}
+	.may h2 {
+		display: block;
+	}
+	.semicircle {
+		height: 10rem;
+	}
+	.me {
+		margin: 0 auto;
+		margin-top: 5rem;
+		width: 45%;	
+	}
+	.semicircle span {
+		top: 3.3rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 6px;
+	}
+	.logo {
+		display: block;
+		width: 100%;	
+		text-align: center;	
+		margin: 0 auto;	
+		margin-top: 5rem;	
+	}
+	.menu {
+		display: none;
+	}
+	.text {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;	
+	}
+	.box {
+		position: static;
+	}
+	.card {
+		display: block;
+		position: static;
+		margin: 0;	
+		width: 100%;	
+		vertical-align: top;		
+	}
+	.card p {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.one {
+		margin: 0;	
+	}
+	.about {
+		display: block;
+		margin-top: 5rem;
+		height:50rem;
+	}
+	.pic {
+		margin-left: 4rem;
+	}
+	.square {
+		width: 49.7%;
+	}
+	.projects, .solutions, .about, .box, .home, .background, .blog, .people{
+		height: auto;
+		display: block;
+	}
+	.home {
+		height: auto;
+	}
+	.two img {
+    	height: 14.9rem;
+    }
+	.description, .pic {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		bottom: 0;
+		text-align: center;
+	}
+	.description h1  {
+		text-align: center;
+	}
+	.description button {
+		margin-bottom: 3rem;
+	}
+	.square {
+		width: 100%;
+	}
+	.solutions h1 {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.row {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+	}
+	.row h2, .row p {
+		text-align: center;
+	}
+	.peoplesquare {
+		display: block;
+		width: 100%;
+	}
+	.people {
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+	.people p {
+		width: 100%;
+	}
+	.quotes {
+		background-size: 90%;
+	}
+	.test {
+		text-align: left;
+		width: 50%;
+	}
+	.test button {
+		margin-bottom: 3rem;
+	}
+	.btn {
+		text-align: center;
+	}
+	.news h1 {
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 4rem;
+	}
+	.may {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	.may p {
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.me {
+		width: 45%;
+		margin: 0 auto;
+		margin-top: 3rem;
+	}
+	.social {
+		margin: 0 auto;
+		margin-bottom: 5rem;
+	}
+	.social img{
+		margin-top: 4rem;
+		margin-right: 5rem;
+	}
+	.semicircle a {
+		width: 30%;
+	}
+	.semicircle span {
+		top: 2rem;
+	}
+	.hamburger {
+		position: fixed;
+		top: 6rem;
+		left: 4rem;
+		background-color: #fff;
+		box-shadow: 0px 0px 25px 0px rgba(219, 219, 219, 0.5);
+		border-radius: 50%;
+		width: 6rem;
+		height: 6rem;
+		padding-top: 1.8rem;
+		z-index: 99;
+	}
+	.hamburger span {
+		display: block;
+		margin: 2px auto;
+		background: linear-gradient(45deg, rgb(1,105,180), rgb(167,43,143));
+		height: 2px;
+		width: 40%;
+	}
+	.menu1 {
+		transform: translateX(-100%);
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 30rem;
+		height: 100vh;
+		background: linear-gradient(45deg, rgb(1,105,180), rgb(167,43,143));
+		z-index: 2;
+		-webkit-transition: all 0.01s;
+		-o-transition: all 0.01s;
+		transition: all 0.01s;
+	}
+	#main-menu:target {
+		transform: translateX(0%);
+		-webkit-box-shadow: 0 0 3rem rgba(0, 0, 0, .3);
+		box-shadow: 0 0 3rem rgba(0, 0, 0, .3);
+		z-index: 99;
+	}
+	#main-menu:target + .hamburger {
+		display: none;
+	}
+	#close-menu span {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: 0;
+	}
+	#close-menu span:nth-child(1) {
+		transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	}
+	#close-menu span:nth-child(2) {
+		transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+	}
+	.navigation {
+		line-height: 4;
+		text-align: left;
+		padding-right: 5rem;
+		padding-top: 15rem;
+		list-style-type: none;
+	}
+	.navigation a {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #fff;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 1.6rem;
+		transition: all 0.3s;
+	}
+}
