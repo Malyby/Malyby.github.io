@@ -1,0 +1,265 @@
+@media only screen and (max-width: 1024px)  {
+	html {
+		font-size: 12px;
+	}
+	header {
+		.menu{
+			padding:0% 1%;
+			.menu-contacts {
+				.menu-contacts-phone{
+					div {
+						a {
+							img {
+								width: 1.5em;
+								height: 1.5em;
+							}
+						}
+					}
+				}
+				.menu-contacts-write {
+					div {
+						padding: 5px 10px 0px 10px;
+						.mail-btn {
+							img {
+								width: 1.9em;
+								height: 1.9em;
+							}
+						}
+					}
+
+				}
+			}
+			.menu-header {
+				.sidebar {
+					display: inline-block;
+					nav {
+						ul {
+							li {
+								a {
+									font-size: 2em;
+								}
+							}
+						}
+					}
+				}
+				.menu-header-logo {
+					padding-left: 40px;
+					a {
+						img {
+							width: 150px;	
+						}
+					}
+				}
+				.menu-header-list {
+					display: none;
+				}
+			}
+		}
+	}
+	.lease {
+		.lease-service {	
+			.lease-service-item {
+				width: 100%;
+				height:20em;
+				margin-top: 2em;
+				padding: 0em 1em;
+				a {
+					.lease-service-item-text {
+						width: 55%;
+						padding:3em 3em;
+					}
+				}
+			}
+		}
+	}
+	.main-form {
+		.main-form-padding {
+			.form-style {
+				width: 80%;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 640px)  {
+	html {
+		font-size: 10px;
+	}
+	header {
+		.menu{
+			padding:0% 2%;
+			.menu-contacts {
+				border-bottom: none;
+				.menu-contacts-phone,.menu-contacts-write{
+					display: none;
+				}
+			}
+			.menu-header {
+				.sidebar {
+					display: inline-block;
+					nav {
+						
+						ul {
+							li {
+								a {
+									font-size: 2em;
+								}
+							}
+						}
+					}
+				}
+				.menu-header-logo {
+					padding-left: 40px;
+					a {
+						img {
+							width: 120px;	
+						}
+					}
+				}
+				.menu-header-list {
+					display: none;
+				}
+			}
+		}
+	}
+	.lease {
+		.lease-service {	
+			padding: 0%	1%;
+			.lease-service-item {
+				height: 18em;
+				a {
+
+					.lease-service-item-photo {
+						width: 45%;
+					}
+					.lease-service-item-text {
+						width: 55%;	
+						padding: 2em 2em;
+					}
+				}
+			}
+		}
+	}
+	.main-form {
+		.main-form-padding {
+			.form-style {
+				width: 95%;
+			}
+		}
+	}
+	.mobile-panel {
+		position: fixed;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.9);
+		width: 100%;
+		height: 40px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content:center;
+		align-items:center;
+		z-index:999;
+		.mobile-panel-phone {
+			width: 20%;
+			text-align: center;
+			a {
+				img {
+					width: 25px;
+					height: 25px;
+				}
+			}
+		}
+		.mobile-panel-write {
+			width: 20%;
+			text-align: center;
+			.mail-btn {
+				text-decoration: none;
+				outline: none;
+				border: none;
+				padding:0px;
+				background-color: rgba(0, 0, 0, 0);
+				cursor: pointer;
+				img {
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
+		.arrow {
+			width: 20%;
+			text-align: center;
+			transform: rotate(-90deg);
+			a {
+				img {
+					width: 25px;
+					height: 25px;
+				}
+			}
+		}
+	}
+	.panel {
+		width: 100%;
+		height: 40px;
+		background-color: #000;
+	}
+	.mail-modal {
+		.modal-content {
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			.form-style {
+				#modal-form {
+					text-align: center;
+					width: 100%;
+					margin-top: 3em;
+					input {
+						height: 4em;
+						margin: 2.5em 0em 0em;
+					}
+					.user-agree {
+						width: 100%;
+						margin: 3em 0em;
+						#checkbox {
+							position: relative;
+							top: 4px;	
+							width: 1.8em;
+							height: 1.8em;
+							display: inline-block;
+							margin-top: 5px;
+							margin-bottom: 10px;
+						}
+						label {
+							vertical-align: top;
+							span {
+								line-height: 2;
+								font-size: 1.5em;	
+							}
+						}
+						input {
+							margin-bottom: 2em;
+						}
+					}
+					.form-btn {
+						color:#111;
+						background-color: #fff;
+						font-size: 1.5em;
+						font-weight: 700;
+						padding: 1.4em 2.2em;
+						text-transform: uppercase;
+						border: 2px solid #111;	
+						margin-top: 2em;
+					}
+					.form-btn:hover {
+						color: #fff;
+						background-color: #111;
+					}
+					.form-btn:hover:focus {
+						color: #fff;
+						background-color: #111;
+					}
+				}
+			}	
+		}
+	}	
+}
